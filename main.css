@@ -18,10 +18,44 @@ html {
     font-size: 1.3rem;
     margin: 0 auto; }
 
+  header img {
+    width: 16rem; }
+
+  header h1 {
+    font-size: 3rem; }
+
+  .say_hello {
+    display: block; } }
+@media (min-width: 480px) {
   .carousel {
-    background: red; }
-    .carousel img {
-      display: inline; } }
+    max-width: 80%;
+    height: 100%;
+    margin: 25px auto; }
+    .carousel::after {
+      clear: both;
+      content: "";
+      display: block; }
+    .carousel .images a {
+      margin-bottom: 2.35765%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .carousel .images a:last-child {
+        margin-right: 0; }
+      .carousel .images a::after {
+        clear: both;
+        content: "";
+        display: block; }
+      .carousel .images a:first-child {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 65.88078%; }
+        .carousel .images a:first-child:last-child {
+          margin-right: 0; }
+      .carousel .images a:nth-child(2) {
+        margin-right: 0; } }
 body {
   font-family: Helvetica; }
 
@@ -52,16 +86,16 @@ h1 {
     padding-top: 2.5rem; }
 
 .carousel {
-  background: red;
-  height: 300px;
-  overflow: hidden;
   font-size: 0; }
-  .carousel img {
-    min-height: 300px;
-    display: none;
+  .carousel .images {
     width: 100%; }
-    .carousel img:nth-child(2) {
-      display: inline; }
+    .carousel .images a {
+      display: none; }
+      .carousel .images a img {
+        width: 100%;
+        height: 200px; }
+      .carousel .images a:nth-child(1) {
+        display: inline; }
 
 .say_hello {
   display: block; }

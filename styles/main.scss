@@ -1,7 +1,8 @@
 @import 'variables', 'bourbon/bourbon', 'neat/neat', 'desktop';
 @import 'slider';
-body {
-    font-family: $primary_font;
+
+body{
+  font-family:$primary_font;
 }
 header {
     background: url("https://aroundausin96days.files.wordpress.com/2012/04/trees-low-res.jpg");
@@ -31,19 +32,34 @@ h1 {
     }
 }
 .carousel {
-    background: red;
-    height: 300px;
-    overflow: hidden;
-    // Removes image whitespace
-    font-size: 0;
-    img {
-        min-height: 300px;
-        display: none;
+  // background: red;
+  // height: 300px;
+  // overflow: hidden;
+  // Removes image whitespace
+  font-size: 0;
+  .images {
+    width: 100%;
+    a {
+      display: none;
+      img {
         width: 100%;
-        &:nth-child(2) {
-            display: inline;
+        height: 200px;
+      }
+      &:nth-child(1) {
+          display: inline;
         }
     }
+  }
+  // .slider-image {
+  //   background: url('images/bike-photo1.jpg');
+  //   background-size: cover;
+  //   min-height: 300px;
+  //   display: none;
+  //   width: 100%;
+  //   &:nth-child(2) {
+  //     display: block;
+  //   }
+  // }
 }
 .say_hello {
     display: block;
