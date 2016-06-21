@@ -26,36 +26,6 @@ html {
 
   .say_hello {
     display: block; } }
-@media (min-width: 480px) {
-  .carousel {
-    max-width: 80%;
-    height: 100%;
-    margin: 25px auto; }
-    .carousel::after {
-      clear: both;
-      content: "";
-      display: block; }
-    .carousel .images a {
-      margin-bottom: 2.35765%;
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .carousel .images a:last-child {
-        margin-right: 0; }
-      .carousel .images a::after {
-        clear: both;
-        content: "";
-        display: block; }
-      .carousel .images a:first-child {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 65.88078%; }
-        .carousel .images a:first-child:last-child {
-          margin-right: 0; }
-      .carousel .images a:nth-child(2) {
-        margin-right: 0; } }
 body {
   font-family: Helvetica; }
 
@@ -144,5 +114,37 @@ footer {
   background-color: #92A477;
   padding: 2rem;
   font-size: 1.2rem; }
+
+@media (min-width: 480px) {
+  .carousel {
+    max-width: 80%;
+    height: 100%;
+    margin: 25px auto; }
+    .carousel::after {
+      clear: both;
+      content: "";
+      display: block; }
+    .carousel .images a {
+      display: inline;
+      margin-bottom: 2.35765%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .carousel .images a:last-child {
+        margin-right: 0; }
+      .carousel .images a::after {
+        clear: both;
+        content: "";
+        display: block; }
+      .carousel .images a:first-child {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 65.88078%; }
+        .carousel .images a:first-child:last-child {
+          margin-right: 0; }
+      .carousel .images a:nth-child(2) {
+        margin-right: 0; } }
 
 /*# sourceMappingURL=main.css.map */
