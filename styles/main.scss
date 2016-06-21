@@ -1,75 +1,36 @@
 @import 'variables', 'bourbon/bourbon', 'neat/neat', 'desktop';
-
-.say_hello {
-  display:none;
-}
-
-.contact {
-  text-align: center;
-  font-family: $primary_font;
-  padding: 1rem;
-
-
-  p:nth-child(2) {
-    font-weight: bold;
-    font-size: 1.3rem;
-  }
-
-
-  p:nth-child(3) {
-      font-weight: bold;
-      font-size: 1.3rem;
-    }
-  }
-
-footer {
-  text-align: center;
-  font-family: Helvetica;
-  // Please change this to our primary_color variable
-  background-color: #92A477;
-  padding: 2rem;
-  font-size: 1.2rem;
-}
+@import 'slider';
 
 body{
   font-family:$primary_font;
 }
 header {
-  background: url("https://aroundausin96days.files.wordpress.com/2012/04/trees-low-res.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height:28rem;
-  text-align: center;
-  background-position-y: bottom;
-}
-
-header img{
-width:12rem;
-margin-top: 4rem;
--webkit-filter: invert(100%);
-// This changes the color from black-white
-
-}
-
-h1{
-  color:$white;
-  text-align: center;
-  font-family: $title_font;
-
-}
-
-.best{
-  background: $primary_color;
-  height:8rem;
-
-
-  h3{
-    margin-top: 0;
+    background: url("https://aroundausin96days.files.wordpress.com/2012/04/trees-low-res.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 28rem;
     text-align: center;
-    padding-top: 2.5rem;
-  }
+    background-position-y: bottom;
 }
-
+header img {
+    width: 12rem;
+    margin-top: 4rem;
+    -webkit-filter: invert(100%); // This changes the color from black-white
+}
+h1 {
+    color: $white;
+    text-align: center;
+    font-family: $title_font;
+}
+.best {
+    background: $primary_color;
+    height: 8rem;
+    h3 {
+        margin-top: 0;
+        text-align: center;
+        padding-top: 2.5rem;
+    }
+}
 .carousel {
   // background: red;
   // height: 300px;
@@ -101,31 +62,59 @@ h1{
   // }
 }
 .say_hello {
-  display:none;
+    display: block;
 }
-
 .contact {
-  text-align: center;
-  font-family: $primary_font;
-  padding: 1rem;
-
-  p:nth-child(2) {
-    font-weight: bold;
-    font-size: 1.3rem;
-  }
-
-  p:nth-child(3) {
-      font-weight: bold;
-      font-size: 1.3rem;
+    text-align: center;
+    font-family: $primary_font;
+    font-size: 1.2rem;
+    display: block;
+    width: 50%;
+    min-width:400px;
+    margin: 0 auto;
+    p:nth-child(2) {
+        font-weight: bold;
+        font-size: 1.3rem;
+        margin-bottom: 0;
     }
-  }
+    p:nth-child(3) {
+        font-weight: bold;
+        font-size: 1.3rem;
+        margin-bottom: 0;
+        margin-top: 0.5rem;
+
+        a {
+          text-decoration: none;
+          color: $black;
+        }
+    }
+}
+.social-media {
+    text-align: center;
+    margin: 0.5rem;
+    li {
+        font-size: 2rem;
+        list-style-type: none;
+        display: inline-block;
+        &:first-child a {
+            text-decoration: none;
+            color: #3B5998;
+        }
+        &:nth-child(2) a {
+          text-decoration: none;
+          color: #1DA1F2;
+        }
+        &:nth-child(3) a {
+          text-decoration: none;
+          color: #0077B5;
+        }
+        }
+    }
 
 footer {
-  text-align: center;
-  font-family: Helvetica;
-  background-color: #92A477;
-  padding: 2rem;
-  font-size: 1.2rem;
+    text-align: center;
+    font-family: Helvetica;
+    background-color: #92A477;
+    padding: 2rem;
+    font-size: 1.2rem;
 }
-
-@import 'slider';

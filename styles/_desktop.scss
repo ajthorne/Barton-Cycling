@@ -1,5 +1,22 @@
 @media (min-width: 480px) {
 
+// header stylings for desktop
+header img{
+  width:16rem;
+}
+
+header h1{
+  font-size: 3rem;
+}
+
+.say_hello {
+  width: 60%;
+  display: block;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0 auto;
+}
+
   // header stylings for desktop
   header img{
     width:16rem;
