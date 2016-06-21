@@ -1,4 +1,34 @@
-@import 'variables';
+@import 'variables', 'bourbon/bourbon', 'neat/neat', 'desktop';
+@import 'slider';
+
+.say_hello {
+  display:none;
+}
+
+.contact {
+  text-align: center;
+  font-family: $primary_font;
+  padding: 1rem;
+
+  p:nth-child(2) {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  p:nth-child(3) {
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+  }
+
+footer {
+  text-align: center;
+  font-family: Helvetica;
+  // Please change this to our primary_color variable
+  background-color: #92A477;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
 
 body{
   font-family:$primary_font;
@@ -9,6 +39,7 @@ header {
   background-repeat: no-repeat;
   height:28rem;
   text-align: center;
+  background-position-y: bottom;
 }
 
 header img{
