@@ -1,3 +1,14 @@
+@media (min-width: 480px) {
+  .carousel {
+    background: red; }
+    .carousel img {
+      display: inline; } }
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 .say_hello {
   display: none; }
 
@@ -49,7 +60,7 @@ h1 {
 
 .carousel {
   background: red;
-  height: 300px;
+  height: 18.75rem;
   overflow: hidden;
   font-size: 0; }
   .carousel img {

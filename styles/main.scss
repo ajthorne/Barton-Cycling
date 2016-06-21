@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'desktop', 'variables', 'bourbon/bourbon', 'neat/neat';
 
 .say_hello {
   display:none;
@@ -67,7 +67,7 @@ h1{
 
 .carousel {
   background: red;
-  height: 300px;
+  height: rem(300);
   overflow: hidden;
   // Removes image whitespace
   font-size: 0;
