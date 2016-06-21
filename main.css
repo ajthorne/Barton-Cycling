@@ -12,33 +12,16 @@ html {
     font-size: 3rem; }
 
   .say_hello {
-    display: block; }
+    width: 60%;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0 auto; }
 
   .carousel {
     background: red; }
     .carousel img {
       display: inline; } }
-.say_hello {
-  display: none; }
-
-.contact {
-  text-align: center;
-  font-family: Helvetica;
-  padding: 1rem; }
-  .contact p:nth-child(2) {
-    font-weight: bold;
-    font-size: 1.3rem; }
-  .contact p:nth-child(3) {
-    font-weight: bold;
-    font-size: 1.3rem; }
-
-footer {
-  text-align: center;
-  font-family: Helvetica;
-  background-color: #92A477;
-  padding: 2rem;
-  font-size: 1.2rem; }
-
 body {
   font-family: Helvetica; }
 
@@ -81,18 +64,45 @@ h1 {
       display: inline; }
 
 .say_hello {
-  display: none; }
+  display: block; }
 
 .contact {
   text-align: center;
   font-family: Helvetica;
-  padding: 1rem; }
+  font-size: 1.2rem;
+  display: block;
+  width: 50%;
+  min-width: 400px;
+  margin: 0 auto; }
   .contact p:nth-child(2) {
     font-weight: bold;
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    margin-bottom: 0; }
   .contact p:nth-child(3) {
     font-weight: bold;
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    margin-top: 0.5rem; }
+    .contact p:nth-child(3) a {
+      text-decoration: none;
+      color: #000; }
+
+.social-media {
+  text-align: center;
+  margin: 0.5rem; }
+  .social-media li {
+    font-size: 2rem;
+    list-style-type: none;
+    display: inline-block; }
+    .social-media li:first-child a {
+      text-decoration: none;
+      color: #3B5998; }
+    .social-media li:nth-child(2) a {
+      text-decoration: none;
+      color: #1DA1F2; }
+    .social-media li:nth-child(3) a {
+      text-decoration: none;
+      color: #0077B5; }
 
 footer {
   text-align: center;
