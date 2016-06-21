@@ -35,11 +35,12 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height:28rem;
+  text-align: center;
 }
 
 header img{
 width:12rem;
-margin-left: 28%;
+// margin-left: 30%;
 margin-top: 4rem;
 -webkit-filter: invert(100%);
 // This changes the color from black-white
