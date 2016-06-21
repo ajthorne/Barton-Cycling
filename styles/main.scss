@@ -1,32 +1,5 @@
 @import 'desktop', 'variables', 'bourbon/bourbon', 'neat/neat';
 
-.say_hello {
-  display:none;
-}
-
-.contact {
-  text-align: center;
-  font-family: $primary_font;
-  padding: 1rem;
-
-  p:nth-child(2) {
-    font-weight: bold;
-    font-size: 1.3rem;
-  }
-
-  p:nth-child(3) {
-      font-weight: bold;
-      font-size: 1.3rem;
-    }
-  }
-
-footer {
-  text-align: center;
-  font-family: Helvetica;
-  background-color: #92A477;
-  padding: 2rem;
-  font-size: 1.2rem;
-}
 body{
   font-family:$primary_font;
 }
@@ -79,4 +52,31 @@ h1{
       display: inline;
     }
   }
+}
+.say_hello {
+  display:none;
+}
+
+.contact {
+  text-align: center;
+  font-family: $primary_font;
+  padding: 1rem;
+
+  p:nth-child(2) {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  p:nth-child(3) {
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+  }
+
+footer {
+  text-align: center;
+  font-family: Helvetica;
+  background-color: #92A477;
+  padding: 2rem;
+  font-size: 1.2rem;
 }
