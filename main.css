@@ -1,3 +1,13 @@
-
+.carousel {
+  background: red;
+  height: 300px;
+  overflow: hidden;
+  font-size: 0; }
+  .carousel img {
+    min-height: 300px;
+    display: none;
+    width: 100%; }
+    .carousel img:nth-child(2) {
+      display: inline; }
 
 /*# sourceMappingURL=main.css.map */

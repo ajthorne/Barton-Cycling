@@ -1,1 +1,17 @@
-@import 'variables'
+@import 'variables';
+
+.carousel {
+  background: red;
+  height: 300px;
+  overflow: hidden;
+  // Removes image whitespace
+  font-size: 0;
+  img {
+    min-height: 300px;
+    display: none;
+    width: 100%;
+    &:nth-child(2) {
+      display: inline;
+    }
+  }
+}
