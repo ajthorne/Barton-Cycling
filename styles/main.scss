@@ -1,5 +1,41 @@
 @import 'variables';
 
+body{
+  font-family:$primary_font;
+}
+header {
+  background: url("https://aroundausin96days.files.wordpress.com/2012/04/trees-low-res.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:28rem;
+}
+
+header img{
+width:12rem;
+margin-left: 28%;
+margin-top: 4rem;
+-webkit-filter: invert(100%);
+// This changes the color from black-white
+
+}
+
+h1{
+  color:$white;
+  text-align: center;
+  font-family: $title_font;
+
+}
+
+.best{
+  background: $primary_color;
+  height:8rem;
+
+
+  h3{
+    margin-top: 0;
+    text-align: center;
+    padding-top: 2.5rem;
+
 .carousel {
   background: red;
   height: 300px;
