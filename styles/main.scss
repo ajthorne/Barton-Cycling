@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'desktop', 'variables', 'bourbon/bourbon', 'neat/neat';
 
 body{
   font-family:$primary_font;
@@ -40,7 +40,7 @@ h1{
 
 .carousel {
   background: red;
-  height: 300px;
+  height: rem(300);
   overflow: hidden;
   // Removes image whitespace
   font-size: 0;
