@@ -1,3 +1,29 @@
+body {
+  font-family: Helvetica; }
 
+header {
+  background: url("https://aroundausin96days.files.wordpress.com/2012/04/trees-low-res.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 28rem; }
+
+header img {
+  width: 12rem;
+  margin-left: 28%;
+  margin-top: 4rem;
+  -webkit-filter: invert(100%); }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif; }
+
+.best {
+  background: #92A477;
+  height: 8rem; }
+  .best h3 {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 2.5rem; }
 
 /*# sourceMappingURL=main.css.map */
