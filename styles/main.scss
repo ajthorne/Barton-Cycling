@@ -1,4 +1,5 @@
-@import 'variables';
+@import 'variables', 'bourbon/bourbon', 'neat/neat', 'desktop';
+@import 'slider';
 
 .say_hello {
   display:none;
