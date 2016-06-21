@@ -11,6 +11,10 @@ html {
   header h1 {
     font-size: 3rem; }
 
+  .best h3 {
+    padding-top: 3rem;
+    font-size: 1.4rem; }
+
   .say_hello {
     display: block; }
 
