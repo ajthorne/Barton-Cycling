@@ -1,4 +1,4 @@
-@import 'desktop', 'variables', 'bourbon/bourbon', 'neat/neat';
+@import 'variables';
 
 body{
   font-family:$primary_font;
@@ -8,11 +8,11 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height:28rem;
+  text-align: center;
 }
 
 header img{
 width:12rem;
-margin-left: 28%;
 margin-top: 4rem;
 -webkit-filter: invert(100%);
 // This changes the color from black-white
@@ -40,7 +40,7 @@ h1{
 
 .carousel {
   background: red;
-  height: rem(300);
+  height: 300px;
   overflow: hidden;
   // Removes image whitespace
   font-size: 0;

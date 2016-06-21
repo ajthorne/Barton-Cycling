@@ -1,3 +1,67 @@
+<<<<<<< HEAD
+.say_hello {
+  display: none; }
+
+.contact {
+  text-align: center;
+  font-family: Helvetica;
+  padding: 1rem; }
+  .contact p:nth-child(2) {
+    font-weight: bold;
+    font-size: 1.3rem; }
+  .contact p:nth-child(3) {
+    font-weight: bold;
+    font-size: 1.3rem; }
+
+footer {
+  text-align: center;
+  font-family: Helvetica;
+  background-color: #92A477;
+  padding: 2rem;
+  font-size: 1.2rem; }
+
+body {
+  font-family: Helvetica; }
+
+header {
+  background: url("https://aroundausin96days.files.wordpress.com/2012/04/trees-low-res.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 28rem;
+  text-align: center; }
+
+header img {
+  width: 12rem;
+  margin-top: 4rem;
+  -webkit-filter: invert(100%); }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif; }
+
+.best {
+  background: #92A477;
+  height: 8rem; }
+  .best h3 {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 2.5rem; }
+
+.carousel {
+  background: red;
+  height: 300px;
+  overflow: hidden;
+  font-size: 0; }
+  .carousel img {
+    min-height: 300px;
+    display: none;
+    width: 100%; }
+    .carousel img:nth-child(2) {
+      display: inline; }
+
+/*# sourceMappingURL=main.css.map */
+=======
 /*
 Error: Invalid CSS after "...6098f5b195b8784": expected "{", was "}"
         on line 16 of styles/_desktop.scss
@@ -73,3 +137,4 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Error: Invalid CSS after \"...6098f5b195b8784\": expected \"{\", was \"}\"\A         on line 16 of styles/_desktop.scss\A         from line 1 of styles/main.scss\A \A 11:     img {\A 12:       display: inline;\A 13:     }\A 14:   }\A 15: >>>>>>> 9d1ee0b2feb1e48d40b19dfe46098f5b195b8784\A 16: }"; }
+>>>>>>> 3d7ca06bc2f9fe4a65513f6b953bd8753890db5a
