@@ -60,9 +60,13 @@ h1 {
   //   }
   // }
 }
+
+/*hidden in mobile view*/
 .say_hello {
-    display: block;
+    display: none;
 }
+
+/*main info*/
 .contact {
     text-align: center;
     font-family: $primary_font;
@@ -97,6 +101,7 @@ h1 {
         display: inline-block;
         transition: all 0.5s ease;
 
+/*adds grow effect to social media links*/
         &:hover {
           transform:scale(1.3);
         }
