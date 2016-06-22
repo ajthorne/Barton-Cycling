@@ -91,7 +91,7 @@ h1 {
           color: $black;
         }
     }
-
+}
 .social-media {
     text-align: center;
     margin: 0.5rem;
@@ -118,6 +118,7 @@ h1 {
           color: #0077B5;
         }
         }
+      }
 
 footer {
     text-align: center;
@@ -126,5 +127,4 @@ footer {
     padding: 2rem;
     font-size: 1.2rem;
 }
-
 @import 'slider';
