@@ -17,7 +17,7 @@ header {
 
 header img {
   width: 12rem;
-  margin-top: 4rem; }
+  margin-top: 30%; }
 
 h1 {
   color: #fff;
@@ -169,7 +169,7 @@ footer {
 @media (min-width: 480px) {
   header img {
     width: 16rem;
-    margin-top: 1rem; }
+    margin-top: 10%; }
 
   header h1 {
     font-size: 3rem; }
