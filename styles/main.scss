@@ -1,4 +1,4 @@
-@import 'variables', 'bourbon/bourbon', 'neat/neat', 'desktop';
+@import 'variables', 'bourbon/bourbon', 'neat/neat';
 
 body{
   font-family:$primary_font;
@@ -97,3 +97,4 @@ footer {
     font-size: 1.2rem;
 }
 @import 'slider';
+@import 'desktop';
