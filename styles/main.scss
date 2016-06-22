@@ -63,6 +63,7 @@ h1 {
 .say_hello {
     display: block;
 }
+
 .contact {
     text-align: center;
     font-family: $primary_font;
@@ -87,7 +88,7 @@ h1 {
           color: $black;
         }
     }
-}
+
 .social-media {
     text-align: center;
     margin: 0.5rem;
@@ -108,7 +109,6 @@ h1 {
           color: #0077B5;
         }
         }
-    }
 
 footer {
     text-align: center;
