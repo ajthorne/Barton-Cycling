@@ -4,23 +4,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-@media (min-width: 480px) {
-  header img {
-    width: 16rem; }
-
-  header h1 {
-    font-size: 3rem; }
-
-  .best h3 {
-    padding-top: 3rem;
-    font-size: 1.4rem; }
-
-  .say_hello {
-    width: 60%;
-    display: block;
-    text-align: center;
-    font-size: 1.3rem;
-    margin: 0 auto; } }
 body {
   font-family: Helvetica; }
 
@@ -62,16 +45,16 @@ h1 {
   width: 50%;
   min-width: 400px;
   margin: 0 auto; }
-  .contact p:nth-child(2) {
+  .contact p:nth-child(3) {
     font-weight: bold;
     font-size: 1.3rem;
     margin-bottom: 0; }
-  .contact p:nth-child(3) {
+  .contact p:nth-child(4) {
     font-weight: bold;
     font-size: 1.3rem;
     margin-bottom: 0;
     margin-top: 0.5rem; }
-    .contact p:nth-child(3) a {
+    .contact p:nth-child(4) a {
       text-decoration: none;
       color: #000; }
 
@@ -184,5 +167,22 @@ footer {
           margin-right: 0; }
       #gallery img:nth-child(2) {
         margin-right: 0; } }
+@media (min-width: 480px) {
+  header img {
+    width: 16rem; }
+
+  header h1 {
+    font-size: 3rem; }
+
+  .best h3 {
+    padding-top: 3rem;
+    font-size: 1.4rem; }
+
+  .say_hello {
+    width: 60%;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=main.css.map */
