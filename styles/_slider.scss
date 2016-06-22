@@ -1,0 +1,24 @@
+@media (min-width: 480px) {
+  .carousel {
+    // background: red;
+    max-width: 80%;
+    height: 100%;
+    margin: 25px auto;
+    @include clearfix;
+    // overflow: hidden;
+    .images {
+      a {
+        display: inline;
+        margin-bottom: $gutter-width;
+        @include span-columns(4);
+        @include clearfix;
+        &:first-child {
+          @include span-columns(8);
+        }
+        &:nth-child(2) {
+          @include omega();
+        }
+      }
+    }
+  }
+}

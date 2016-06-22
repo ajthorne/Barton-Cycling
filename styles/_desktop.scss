@@ -14,13 +14,23 @@ header h1{
   font-size: 1.4rem;
 }
 .say_hello {
-  display:block;
+  width: 60%;
+  display: block;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0 auto;
 }
 
-  .carousel {
-    background: red;
-    img {
-      display: inline;
-    }
-}
+  // header stylings for desktop
+  header img{
+    width:16rem;
+  }
+
+  header h1{
+    font-size: 3rem;
+  }
+
+  .say_hello {
+    display:block;
+  }
 }
